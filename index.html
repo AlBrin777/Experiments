@@ -1,0 +1,1928 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alfredo Flores">
+    <meta name="description" content="Portafolio de mis trabajos actuales">
+    <meta name="keywords" content="">
+	<link rel="shortcut icon" href="publics/img/logoFoliusal.png">
+    <link rel="stylesheet" href="publics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="publics/css/mystyles.css">
+    <link rel="stylesheet" href="publics/css/style.css">
+      <!-- plugins -->
+  <link rel="stylesheet" type="text/css" href="publics/css/plugins/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="publics/css/plugins/simple-line-icons.css"/>
+  <link rel="stylesheet" type="text/css" href="publics/css/plugins/mediaelementplayer.css"/>
+  <link rel="stylesheet" type="text/css" href="publics/css/plugins/animate.min.css"/>
+  <link rel="stylesheet" type="text/css" href="publics/css/plugins/spinkit.css"/>
+    <title>FOLIUS Δl</title>
+</head>
+<body>
+    <script src="publics/js/jquery.min.js"></script>
+    <script src="publics/js/jquery.ui.min.js"></script>
+
+<!--Start HEADER-->
+<header class="header" style="margin-bottom: 55px;">
+    <nav class="navbar navbar-default navbar-fixed-top tinav" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="principal"><i class="fa fa-arrow-left"></i> <b>FOLIUS Δl</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="">Experiments</a></li>
+                    <li><a href="About" data-toggle="modal" data-target="#modal_about">About</a></li>
+                    <li><a href="" data-toggle="modal" data-target="#modal_help">Help <i class="fa fa-question-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="panel-header">
+    <div class="panel-body-header">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <p>
+                    <b>
+                        Bienvenido a mi sitio de experimentos!
+                    </b>
+                </p>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-8 col-lg-8 col-xl-8">
+                <div class="panel-into-2">
+                    <div id="wCode">
+                        <div id="partSection">
+                            <div class="text-center"><img src="publics/img/ExperimentsB.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- modal-about -->
+  <div class="modal fade modal-v1" id="modal_about">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title">
+            <i class="fa fa-info"></i>
+          </h2>
+        </div>
+        <div class="modal-body">
+            <p>
+                <b>Experiments</b> es una página web de <b>Foliusal</b>, donde he realizado una serie de miniproyectos, 
+                con la intención de abarcar lo necesario sobre el lenguaje JavaScript, de forma práctica. Por tal motivo, no 
+                he considerado la optimización de los códigos, así como también la calidad del diseño. Este sitio se ha enfocado
+                únicamente en experimentar, como su nombre indíca. 
+            </p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+<!-- modal-about -->
+
+  <!-- modal-help -->
+  <div class="modal fade modal-v1" id="modal_help">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title">
+            <i class="fa fa-question-circle"></i>
+          </h2>
+        </div>
+        <div class="modal-body">
+            <p class="text-left">
+                <b>DomiColor:</b><br>
+                Este es un minijuego, donde cuatro colores compiten por alcanzar la máxima puntuación. <br>
+                El juego se presenta con dos secciones: <br>
+                ELIGE TU COLOR: <i>Un conjunto de botones representan a cada color, y luego de seleccionar se presiona el botón <b>"Empezar!"</b>.</i> <br>
+                CAMPO DE BATALLA: <i>En la parte superior de la tabla se muestra el progreso de cada color, y en la tabla, el patrón generado en la batalla.</i> 
+                <br><br><br>
+                <b>NuclearE:</b><br>
+                Es un minijuego sobre un reactor nuclear ficticio, donde el objetivo es mantener la temperatura por debajo de los 1500 grados centígrados, usando el llamado "Control del módulo temperatura". <br>
+                Las partes que lo conforman son: <br>
+                ledPower: Este inidicador (led) se enciende de amarillo y pulsa constantemente mientras el módulo Control del reactor está encendido. <br><br>
+                ENCENDER MÓDULO: Swich que enciende todo el módulo y, comienza el juego. <br><br>
+                Compuertas H<sub>2</sub>O: Permíte que se pueda cargar el agua. <i>importante!: Debe estar desactivado al encender el módulo.</i> <br><br>
+                Sensor de temperatura: Permite conocer la temperatura del reactor, <i>importante!: Si lo apagas mientras el módulo está encendido, probablemente tendrás problemas.</i> <br><br>
+                Cargar agua: Si las compuertas H<sub>2</sub>O están abiertas podrás cargar agua. Una barra muestra gráficamente el porcentaje de agua. <br><br>
+                DISMINUIR TEMPERATURA: Un conjunto de swiches que permiten seleccionar el nivel de control (bajo, medio, alto), utiliza agua para el proceso de disminuir la temperatura. <i>Importante! Debe apagar los NIVELADORES cuando requiera cargar agua.</i><br><br>
+                Estado actual del reactor: Expresa gráficamente el valor de temperatura, y alerta del estado del reactor (normal, en riesgo o en peligro inminente). <br><br>          
+                <br><br><br>
+                <b>FFphysics:</b><br>
+                App científica que permite calcular la Caida libre de un objeto, es muy fácil de utilizar.
+                <br><br><br>
+                <b>NotesX:</b>
+                App de crear notas, minimalista, sin exceso de detalles. El lápiz indica la zona donde se escribe, la hojita indica la lista de notas creadas. Al presionar el botón "+" después de escribir la nota, esta se guarda.
+                <br>
+                <br><br><br>
+                <b>Lorobot:</b><br>
+                La version 0.0.2, de un bot llamado lorobot. El algoritmo es básico, pero su alcance puede ser amplio si se usa el concepto para conversaciones en redes sociales.
+                <br><br><br>
+            </p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+<!-- modal-help -->
+
+<!--End HEADER-->
+<br><br><br><br>
+
+<!--START: CONTENT-->
+<div class="container-fluid">
+
+    <div class="section panel-body">
+        <div class="text-center h-section">
+            <h4>EL COLOR GANADOR | <i><img src="publics/img/imgex_1.png" alt=""></i> DomiColor</h4>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <div class="text-center h-section"><h3><b>ELIGE TU COLOR</b></h3></div>
+                <div class="part_dc">
+                    <label for="r">Rojo:</label>
+                    <div class="mini-onoffswitch onoffswitch-danger">
+                      <input type="radio" name="onoffswitch1F" class="onoffswitch-checkbox" id="myonoffswitch1FA">
+                      <label class="onoffswitch-label" for="myonoffswitch1FA"></label>
+                    </div>
+                    <label for="n">Naranja:</label>
+                    <div class="mini-onoffswitch onoffswitch-warning">
+                      <input type="radio" name="onoffswitch1F" class="onoffswitch-checkbox" id="myonoffswitch1FB">
+                      <label class="onoffswitch-label" for="myonoffswitch1FB"></label>
+                    </div>
+                    <label for="v">Verde:</label>
+                    <div class="mini-onoffswitch onoffswitch-success">
+                      <input type="radio" name="onoffswitch1F" class="onoffswitch-checkbox" id="myonoffswitch1FC">
+                      <label class="onoffswitch-label" for="myonoffswitch1FC"></label>
+                    </div>
+                    <label for="a">Azúl:</label>
+                    <div class="mini-onoffswitch onoffswitch-info">
+                      <input type="radio" name="onoffswitch1F" class="onoffswitch-checkbox" id="myonoffswitch1FD">
+                      <label class="onoffswitch-label" for="myonoffswitch1FD"></label>
+                    </div>
+                </div><br>
+                <div class="text-center"><button class="btn btn-success ripple btn-round" onclick="playgameone(true)">Empezar!</button></div><br><br>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-9 col-lg-9 col-xl-9">
+                <br>
+                <div>
+                    <div class="form-inline">
+                        <div class="form-group"><b><i>Puntuación:</i></b></div>
+                        <div class="form-group"><button class="bg bg-red">R</button> = <i id="rp">0</i></div>&nbsp;&nbsp;&nbsp;
+                        <div class="form-group"><button class="bg bg-orange">N</button> = <i id="op">0</i></div>&nbsp;&nbsp;&nbsp;
+                        <div class="form-group"><button class="bg bg-green">V</button> = <i id="gp">0</i></div>&nbsp;&nbsp;&nbsp;
+                        <div class="form-group"><button class="bg bg-blue">A</button> = <i id="bp">0</i></div>&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="text-center">
+                        ESTE ES EL CAMPO DE BATALLA
+                    </div>
+                    <div id="alertDomiColor"></div>
+                </div>
+                <hr>
+                <div class="bg bg-info padDomi">
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="1">1</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="2">2</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="3">3</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="4">4</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="5">5</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="6">6</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="7">7</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="8">8</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="9">9</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="10">10</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="11">11</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="12">12</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="13">13</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="14">14</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="15">15</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="16">16</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="17">17</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="18">18</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="19">19</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="20">20</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="21">21</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="22">22</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="23">23</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="24">24</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="25">25</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="26">26</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="27">27</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="28">28</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="29">29</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="30">30</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="31">31</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="32">32</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="33">33</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="34">34</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="35">35</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="36">36</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="37">37</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="38">38</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="39">39</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="40">40</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="41">41</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="42">42</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="43">43</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="44">44</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="45">45</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="46">46</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="47">47</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="48">48</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="49">49</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="50">50</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="51">51</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="52">52</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="53">53</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="54">54</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="55">55</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="56">56</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="57">57</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="58">58</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="59">59</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="60">60</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="61">61</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="62">62</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="63">63</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="64">64</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="65">65</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="66">66</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="67">67</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="68">68</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="69">69</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="70">70</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="71">71</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="72">72</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="73">73</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="74">74</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="75">75</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="76">76</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="77">77</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="78">78</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="79">79</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="80">80</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="81">81</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="82">82</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="83">83</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="84">84</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="85">85</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="86">86</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="87">87</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="88">88</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="89">89</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="90">90</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="91">91</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="92">92</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="93">93</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="94">94</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="95">95</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="96">96</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="97">97</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="98">98</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="99">99</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <div id="100">100</div>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-12 hidden-md hidden-lg hidden-xl text-center">
+                <div class="text-center"><b>AQUÍ ES EL CAMPO DE BATALLA <i class="fa fa-hand-o-down"></i></b></div>
+                <div class="srow">
+                    <i id="1s">1</i> <i id="2s">2</i> <i id="3s">3</i> <i id="4s">4</i> <i id="5s">5</i> <i id="6s">6</i> <i id="7s">7</i> <i id="8s">8</i> <i id="9s">9</i> <i id="10s">10</i>
+                </div>
+                <div class="srow">
+                    <i id="11s">11</i> <i id="12s">12</i> <i id="13s">13</i> <i id="14s">14</i> <i id="15s">15</i> <i id="16s">16</i> <i id="17s">17</i> <i id="18s">18</i> <i id="19s">19</i> <i id="20s">20</i>
+                </div>
+                <div class="srow">
+                    <i id="21s">21</i> <i id="22s">22</i> <i id="23s">23</i> <i id="24s">24</i> <i id="25s">25</i> <i id="26s">26</i> <i id="27s">27</i> <i id="28s">28</i> <i id="29s">29</i> <i id="30s">30</i>
+                </div>
+                <div class="srow">
+                    <i id="31s">31</i> <i id="32s">32</i> <i id="33s">33</i> <i id="34s">34</i> <i id="35s">35</i> <i id="36s">36</i> <i id="37s">37</i> <i id="38s">38</i> <i id="39s">39</i> <i id="40s">40</i>
+                </div>
+                <div class="srow">
+                    <i id="41s">41</i> <i id="42s">42</i> <i id="43s">43</i> <i id="44s">44</i> <i id="45s">45</i> <i id="46s">46</i> <i id="47s">47</i> <i id="48s">48</i> <i id="49s">49</i> <i id="50s">50</i>
+                </div>
+                <div class="srow">
+                    <i id="51s">51</i> <i id="52s">52</i> <i id="53s">53</i> <i id="54s">54</i> <i id="55s">55</i> <i id="56s">56</i> <i id="57s">57</i> <i id="58s">58</i> <i id="59s">59</i> <i id="60s">60</i>
+                </div>
+                <div class="srow">
+                    <i id="61s">61</i> <i id="62s">62</i> <i id="63s">63</i> <i id="64s">64</i> <i id="65s">65</i> <i id="66s">66</i> <i id="67s">67</i> <i id="68s">68</i> <i id="69s">69</i> <i id="70s">70</i>
+                </div>
+                <div class="srow">
+                    <i id="71s">71</i> <i id="72s">72</i> <i id="73s">73</i> <i id="74s">74</i> <i id="75s">75</i> <i id="76s">76</i> <i id="77s">7</i> <i id="78s">78</i> <i id="79s">79</i> <i id="80s">80</i>
+                </div>
+                <div class="srow">
+                    <i id="81s">81</i> <i id="82s">82</i> <i id="83s">83</i> <i id="84s">84</i> <i id="85s">85</i> <i id="86s">86</i> <i id="87s">87</i> <i id="88s">88</i> <i id="89s">89</i> <i id="90s">90</i>
+                </div>
+                <div class="srow">
+                    <i id="91s">91</i> <i id="92s">92</i> <i id="93s">93</i> <i id="94s">94</i> <i id="95s">95</i> <i id="96s">96</i> <i id="97s">97</i> <i id="98s">98</i> <i id="99s">99</i> <i id="100s">100</i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <div class="section">
+        <div class="text-center h-section">
+            <h4>CUIDAR EL REACTOR | <i class="btn btn-circle btn-warning fa fa-industry fa-1x"></i> NuclearE</h4><br>
+            <h5>CONTROL DEL MÓDULO DE TEMPERATURA</h5>
+        </div>
+        <hr>
+        <div class="padDomi2">
+            <span id="alertNuclearE"></span>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="btn powerLed"><i class="icons icon-energy"></i></div><br><br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <div class="form-inline">
+                                <label for="on/off" class="form-group"><b>ENCENDER MÓDULO:</b></label>&nbsp;&nbsp;&nbsp;
+                                  <div class="mini-onoffswitch onoffswitch-warning form-group">
+                                    <input type="checkbox" onclick="powerPlant()" name="onoffswitch1B" class="onoffswitch-checkbox powerMod" id="myonoffswitch1B">
+                                    <label class="onoffswitch-label" for="myonoffswitch1B"></label>
+                                   </div>
+                                </div><br>
+                                <div class="">
+                                    <label for="h2o" class=""><b>Compuertas H<sub>2</sub>O:</b></label>
+                                    <div class="mini-onoffswitch onoffswitch-info" id="dwather">
+                                        <input type="checkbox" onclick="doorW()" name="onoffswitch1D" class="onoffswitch-checkbox doorWather" id="myonoffswitch1D">
+                                        <label class="onoffswitch-label" for="myonoffswitch1D"></label>
+                                    </div>
+                                </div><br>
+                                <div class="">
+                                    <label for="h2o" class="form-group"><b>Sensor de temperatura:</b></label>
+                                    <div class="mini-onoffswitch onoffswitch-primary" id="tsensor">
+                                        <input type="checkbox" onclick="tempS()" name="onoffswitch1C" class="onoffswitch-checkbox tempeSen" id="myonoffswitch1C">
+                                        <label class="onoffswitch-label" for="myonoffswitch1C"></label>
+                                      </div>
+                                </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <label for=""><b>Cargar agua:</b></label> <i class="form-group"><i class="btn fa fa-plus" onclick="addWather()"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i id="sumW"></i></i>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" id="barWather" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100">
+                                  <span class="sr-only">20% Complete</span>
+                                </div>
+                            </div>
+                            <label for=""><b>DISMINUIR TEMPERATURA<b></label><br>
+                                <label for="">Nivel 1:</label>
+                                <div class="mini-onoffswitch onoffswitch-warning">
+                                  <input type="radio" onclick="tempControllevel1()" name="onoffswitch1F_2" class="onoffswitch-checkbox level1" id="myonoffswitch1FB_2">
+                                  <label class="onoffswitch-label" for="myonoffswitch1FB_2"></label>
+                                </div>
+                                <label for="">Nivel 2:</label>
+                                <div class="mini-onoffswitch onoffswitch-success">
+                                  <input type="radio" onclick="tempControllevel2()" name="onoffswitch1F_2" class="onoffswitch-checkbox level2" id="myonoffswitch1FC_2">
+                                  <label class="onoffswitch-label" for="myonoffswitch1FC_2"></label>
+                                </div>
+                                <label for="">Nivel 3:</label>
+                                <div class="mini-onoffswitch onoffswitch-info">
+                                  <input type="radio" onclick="tempControllevel3()" name="onoffswitch1F_2" class="onoffswitch-checkbox level3" id="myonoffswitch1FD_2">
+                                  <label class="onoffswitch-label" for="myonoffswitch1FD_2"></label>
+                                </div>
+                                <label for="">APAGAR NIVELADORES</label>
+                                <div class="mini-onoffswitch onoffswitch-default">
+                                    <input type="radio" onclick="tempControllevelOff()" name="onoffswitch1F_2" class="onoffswitch-checkbox" id="myonoffswitch1FE_2">
+                                    <label class="onoffswitch-label" for="myonoffswitch1FE_2"></label>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="panel">
+                        <div class="panel-heading panel-heading-white text-center">
+                           <h4>Estado actual del reactor</h4>
+                         </div>
+                         <div class="panel-body">
+                                <div class="labelinechart">
+                                    <i>TEMPERATURA:</i><br>
+                                    <small>
+                                        <i id="sRalert"></i><br>
+                                        Punto de incio (valor aceptable): 790 °C <br>
+                                        Probabilidad de mantenerse: 63% <br>
+                                        Probabilidad de bajar: 7% <br>
+                                        Probabilidad de aumentar (normalmente 4 °C): 30% <br>
+                                    </small>
+                                    Temperatura actual:
+                                </div>
+                                <div class="text-center" id="line-chart">
+                                </div>
+                             <div id="footline-chart">
+                                <div class="text-center"><i class="btn alert-danger"><i class="fa fa-warning"></i> El sensor de temperatura está desactivado.</i></div>
+                             </div>
+                         </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="section">
+        <div class="text-center h-section">
+            <h4>CALCULAR CAIDA LIBRE (FÍSICA) | <i class="btn btn-danger fa fa-arrow-down fa-1x"></i> FFphysics</h4><br>
+            <p>
+                &nbsp;&nbsp;&nbsp;La <i><b>Caída libre</b></i> es un movimiento vertical descendente en el cual el móvil parte del reposo, por lo tanto, es un movimiento uniformemente acelerado de la aceleración de la gravedad.
+            </p>
+        </div>
+        <hr>
+        <div class="padDomi2">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    Para los cálculos se utilizan las siguientes fórmulas: <br> <br>
+                    a) Velocidad final (v<sub>f</sub>): <br>
+                    v<sub>f</sub> = a.t <br><br>
+                    b) Altura o distancia (d): <br>
+                    d = (a.t<sup>2</sup>) / 2 <br><br>
+                    c) Cuadrado de la velocidad final (v<sub>f</sub><sup>2</sup>): <br>
+                    v<sub>f</sub><sup>2</sup> = 2.d.a <br>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <span id="alertffP"></span>
+                    <div class="padFF" id="ffP">
+                        <div class="text-center">
+                            <h3><b>¿Qué deseas calcular?</b></h3><br>
+                            <button onclick="calculH()" class="btn btn-ripple btn-3d btn-default form-control"><i class="icons icon-layers"></i> ALTURA</button><br><br>
+                            <button onclick="calculT()" class="btn btn-ripple btn-3d btn-default form-control"><i class="icons icon-hourglass"></i> TIEMPO</button><br><br>
+                            <button onclick="calculV()" class="btn btn-ripple btn-3d btn-default form-control"><i class="icons icon-speedometer"></i> VELOCIDAD</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <small>
+                        <i>Considera esto:</i><br><br>
+                        1.- v = velocidad, a = aceleración, t = tiempo, d = distancia, &nbsp;&nbsp;&nbsp; m = métro, seg = segundo.<br><br>
+                        2.- La aceleración <i>a</i> es la gravedad de la tierra (9,8 m/seg<sup>2</sup>). <br><br>
+                        3.- La velocidad final (v<sub>f</sub>) es la que, al llegar al suelo tiene el objeto. <br><br>
+                        4.- La velocidad final tiene dos maneras de carcularse: En función del tiempo (fórmula a, <i>cuando conoces el tiempo que tardó en llegar al suelo</i>), y en función de la altura (fórmula c, <i>cuando conoces la altura desde la cual comenzó a descender el objeto</i>).
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="section">
+        <div class="text-center h-section">
+            <h4>HACER NOTAS | <button class="btn bg-pink text-white"><b><i class="fa fa-sticky-note-o fa-2x"></i></b></button> NotesX</h4><br>
+        </div>
+        <hr>
+        <div class="notesX">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="text-right"><b><i class="fa fa-sticky-note-o fa-2x"></i></b></div>
+                            <div id="alertNoteX" class="text-center"></div>
+                            <div class="noteX">
+                                <div class="tabs-area">
+                                    <ul id="tabs-demo2" class="nav nav-tabs nav-tabs-v1" role="tablist">
+                                      <li role="presentation" class="">
+                                        <a href="#tabs-demo2-area1" id="tabs-demo2-1" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-pencil"></i></a>
+                                      </li>
+                                      <li role="presentation" class="">
+                                        <a href="#tabs-demo2-area2" onclick="listnotesx()" role="tab" id="tabs-demo2-2" data-toggle="tab" aria-expanded="true"><i class="fa fa-list"></i></a>
+                                      </li>
+                                    </ul>
+                                    <div id="tabsDemo2Content" class="tab-content tab-content-v1">
+                                      <div role="tabpanel" class="tab-pane fade active in" id="tabs-demo2-area1" aria-labelledby="tabs-demo2-area1">
+                                        <textarea name="" id="noteX" class="form-control" contenteditable="false" rows="10" placeholder="Escríbe tu nota..."></textarea>
+                                        <div class="text-right"> <i class="btn fa fa-plus" onclick="addOtherNote()"></i></div>
+                                      </div>
+                                      <div role="tabpanel" class="tab-pane fade" id="tabs-demo2-area2" aria-labelledby="tabs-demo2-area2">
+                                        <div id="listnotesx"></div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="section">
+        <div class="text-center h-section">
+            <h4>LOROBOT v-0.0.2 | <button class="btn bg-green text-white"><b>LBot</b></button> Lorobot</h4><br>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="text-center"><h4><i class="fa fa-institution"></i>&nbsp;&nbsp;ENSEÑA A LOROBOT</h4></div>
+                <div class="loroL">
+                    <div id="alertLL" class="text-center"></div>
+                    <label for="e">EMISOR <i class="fa fa-rss"></i></label>
+                    <input type="text" id="emitting" class="form-control primary" placeholder="El emisor dice..."><br>
+                    <label for="r">RECEPTOR <i class="fa fa-minus"></i></label>
+                    <input type="text" id="receiver" class="form-control primary" placeholder="El receptor luego responde..."><br>
+                    <button class="btn btn-primary" onclick="learning()">ENSEÑAR</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="text-center"><h4><i class="fa fa-comments"></i>&nbsp;&nbsp;HABLA CON LOROBOT</h4></div>
+                <div class="loroL">
+                    <div class="text-center"><label for="t">Parloteo <i class="fa fa-commenting"></i></label></div>
+                    <div id="prattle" class="lorobotT text-center">
+                        Hola
+                    </div>
+                    <br>
+                    <input type="text" id="textP" class="form-control success" placeholder="...">
+                    <button class="btn btn-success" onclick="talk()">Decirle <i class="fa fa-comment-o"></i></button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="text-center"><h4><i class="fa fa-book"></i> Instrucciones</h4></div>
+                <div>
+                    <div class="loroL">
+                        <ul>
+                            <li><i class="fa fa-circle"></i> Primero debes enseñarle a conversar.</li>
+                            <li><i class="fa fa-circle"></i> El responde únicamente lo que aprendió.</li>
+                            <li><i class="fa fa-circle"></i> Procura no escribirle de manera informal.</li>
+                            <li><i class="fa fa-circle"></i> Él sabe algunas cosas por defecto.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br><br>
+
+<div class="section">
+        <h3 class="t1 text-center">Código fuente</h3>
+    <div class="text-center">
+        <h4>Disponible en github:  <i class="fa fa-github-square fa-2x"></i></h4>
+        <a href="">Experiments</a>
+    </div>
+    <br><br>
+</div>
+<br><br><br>
+</div>
+<!--END: CONTENT-->
+
+<!--Start FOOTER-->
+<footer class="footer">
+    <div style="padding: 30px;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="text-center"><b><h3>Acerca de</h3></b></div>
+                <hr>
+                <p>
+                    &nbsp;&nbsp;&nbsp;Este sitio Web no utiliza sistemas manejadores de contenido (CMS), exeptuando el <i>Framework Bootstrap</i>, esta completamente desarrollado por Alfredo Flores. Tiene como propósito hacer públicos sus conocimientos y socializar con personas dedicadas o interesadas en el área de programación.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="text-center"><b><h3>Portafolio</h3></b></div>
+                <hr>
+                <div class="list-infooter">
+                    <a href="">testsJS</a><br>
+                    <a href="">Experiments</a><br>
+                    <a href="">phpLearning</a><br>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="text-center"><b><h3>Contáctame</h3></b></div>
+                <div class="hrDownred"></div>
+                <div class="Allcontact">
+                    <div class="text-center">
+                        <b><h4>abrin.php@gmail.com</h4></b>
+                    </div>
+                    <small><strong> Redes Sociales</strong></small><br><hr>
+                   <div class="list-infooter">
+                    <a href=""class="btn btn-circle"><h2><i class="fa fa-facebook"></i></h2></a>
+                    <a href=""class="btn btn-circle"><h2><i class="fa fa-instagram"></i></h2></a>
+                    <a href=""class="btn btn-circle"><h2><i class="fa fa-twitter"></i></h2></a>
+                    <a href=""class="btn btn-circle"><h2><i class="fa fa-reddit"></i></h2></a>
+                   </div><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fix-foot">
+        <div class="row">
+            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 text-right">
+                <br>
+                <strom><b>FOLIUS Δl</b>, All rights reserved 2022</strom>
+            </div>
+            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 text-right">
+                <b><h4>FOLIUS Δl /<i class="fa fa-angle-right"></i></h4></b>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End FOOTER-->
+
+
+<script src="publics/js/bootstrap.min.js"></script>
+<script src="publics/js/main.js"></script>
+<!-- plugins -->
+<script src="publics/js/plugins/moment.min.js"></script>
+<script src="publics/js/plugins/jquery.nicescroll.js"></script>
+<script src="publics/js/plugins/raphael.min.js"></script>
+<script src="publics/js/plugins/morris.min.js"></script>
+
+<!--START: SOURCE-->
+<script>
+
+//EXPERIMENT ONE
+
+function playgameone(stoplay){
+    
+        document.getElementById("1").innerHTML=`1`, document.getElementById("2").innerHTML=`2`,
+        document.getElementById("3").innerHTML=`3`, document.getElementById("4").innerHTML=`4`,
+        document.getElementById("5").innerHTML=`5`, document.getElementById("6").innerHTML=`6`,
+        document.getElementById("7").innerHTML=`7`, document.getElementById("8").innerHTML=`8`,
+        document.getElementById("9").innerHTML=`9`, document.getElementById("10").innerHTML=`10`,
+        document.getElementById("11").innerHTML=`11`, document.getElementById("12").innerHTML=`12`,
+        document.getElementById("13").innerHTML=`13`, document.getElementById("14").innerHTML=`14`,
+        document.getElementById("15").innerHTML=`15`, document.getElementById("16").innerHTML=`16`,
+        document.getElementById("17").innerHTML=`17`, document.getElementById("18").innerHTML=`18`,
+        document.getElementById("19").innerHTML=`19`, document.getElementById("20").innerHTML=`20`,
+        document.getElementById("21").innerHTML=`21`, document.getElementById("22").innerHTML=`22`,
+        document.getElementById("23").innerHTML=`23`, document.getElementById("24").innerHTML=`24`,
+        document.getElementById("25").innerHTML=`25`, document.getElementById("26").innerHTML=`26`,
+        document.getElementById("27").innerHTML=`27`, document.getElementById("28").innerHTML=`28`,
+        document.getElementById("29").innerHTML=`29`, document.getElementById("30").innerHTML=`30`,
+        document.getElementById("31").innerHTML=`31`, document.getElementById("32").innerHTML=`32`,
+        document.getElementById("33").innerHTML=`33`, document.getElementById("34").innerHTML=`34`,
+        document.getElementById("35").innerHTML=`35`, document.getElementById("36").innerHTML=`36`,
+        document.getElementById("37").innerHTML=`37`, document.getElementById("38").innerHTML=`38`,
+        document.getElementById("39").innerHTML=`39`, document.getElementById("40").innerHTML=`40`,
+        document.getElementById("41").innerHTML=`41`, document.getElementById("42").innerHTML=`42`,
+        document.getElementById("43").innerHTML=`43`, document.getElementById("44").innerHTML=`44`,
+        document.getElementById("45").innerHTML=`45`, document.getElementById("46").innerHTML=`46`,
+        document.getElementById("47").innerHTML=`47`, document.getElementById("48").innerHTML=`48`,
+        document.getElementById("49").innerHTML=`49`, document.getElementById("50").innerHTML=`50`,
+        document.getElementById("51").innerHTML=`51`, document.getElementById("52").innerHTML=`52`,
+        document.getElementById("53").innerHTML=`53`, document.getElementById("54").innerHTML=`54`,
+        document.getElementById("55").innerHTML=`55`, document.getElementById("56").innerHTML=`56`,
+        document.getElementById("57").innerHTML=`57`, document.getElementById("58").innerHTML=`58`,
+        document.getElementById("59").innerHTML=`59`, document.getElementById("60").innerHTML=`60`,
+        document.getElementById("61").innerHTML=`61`, document.getElementById("62").innerHTML=`62`,
+        document.getElementById("63").innerHTML=`63`, document.getElementById("64").innerHTML=`64`,
+        document.getElementById("65").innerHTML=`65`, document.getElementById("66").innerHTML=`66`,
+        document.getElementById("67").innerHTML=`67`, document.getElementById("68").innerHTML=`68`,
+        document.getElementById("69").innerHTML=`69`, document.getElementById("70").innerHTML=`70`,
+        document.getElementById("71").innerHTML=`71`, document.getElementById("72").innerHTML=`72`,
+        document.getElementById("73").innerHTML=`73`, document.getElementById("74").innerHTML=`74`,
+        document.getElementById("75").innerHTML=`75`, document.getElementById("76").innerHTML=`76`,
+        document.getElementById("77").innerHTML=`77`, document.getElementById("78").innerHTML=`78`,
+        document.getElementById("79").innerHTML=`79`, document.getElementById("80").innerHTML=`80`,
+        document.getElementById("81").innerHTML=`81`, document.getElementById("82").innerHTML=`82`,
+        document.getElementById("83").innerHTML=`83`, document.getElementById("84").innerHTML=`84`,
+        document.getElementById("85").innerHTML=`85`, document.getElementById("86").innerHTML=`86`,
+        document.getElementById("87").innerHTML=`87`, document.getElementById("88").innerHTML=`88`,
+        document.getElementById("89").innerHTML=`89`, document.getElementById("90").innerHTML=`90`,
+        document.getElementById("91").innerHTML=`91`, document.getElementById("92").innerHTML=`92`,
+        document.getElementById("93").innerHTML=`93`, document.getElementById("94").innerHTML=`94`,
+        document.getElementById("95").innerHTML=`95`, document.getElementById("96").innerHTML=`96`,
+        document.getElementById("97").innerHTML=`97`, document.getElementById("98").innerHTML=`98`,
+        document.getElementById("99").innerHTML=`99`, document.getElementById("100").innerHTML=`100`,
+
+    document.getElementById("alertDomiColor").innerHTML = ``;
+
+    arrayBatNum = [
+        document.getElementById("1").innerHTML, document.getElementById("2").innerHTML,
+        document.getElementById("3").innerHTML, document.getElementById("4").innerHTML,
+        document.getElementById("5").innerHTML, document.getElementById("6").innerHTML,
+        document.getElementById("7").innerHTML, document.getElementById("8").innerHTML,
+        document.getElementById("9").innerHTML, document.getElementById("10").innerHTML,
+        document.getElementById("11").innerHTML, document.getElementById("12").innerHTML,
+        document.getElementById("13").innerHTML, document.getElementById("14").innerHTML,
+        document.getElementById("15").innerHTML, document.getElementById("16").innerHTML,
+        document.getElementById("17").innerHTML, document.getElementById("18").innerHTML,
+        document.getElementById("19").innerHTML, document.getElementById("20").innerHTML,
+        document.getElementById("21").innerHTML, document.getElementById("22").innerHTML,
+        document.getElementById("23").innerHTML, document.getElementById("24").innerHTML,
+        document.getElementById("25").innerHTML, document.getElementById("26").innerHTML,
+        document.getElementById("27").innerHTML, document.getElementById("28").innerHTML,
+        document.getElementById("29").innerHTML, document.getElementById("30").innerHTML,
+        document.getElementById("31").innerHTML, document.getElementById("32").innerHTML,
+        document.getElementById("33").innerHTML, document.getElementById("34").innerHTML,
+        document.getElementById("35").innerHTML, document.getElementById("36").innerHTML,
+        document.getElementById("37").innerHTML, document.getElementById("38").innerHTML,
+        document.getElementById("39").innerHTML, document.getElementById("40").innerHTML,
+        document.getElementById("41").innerHTML, document.getElementById("42").innerHTML,
+        document.getElementById("43").innerHTML, document.getElementById("44").innerHTML,
+        document.getElementById("45").innerHTML, document.getElementById("46").innerHTML,
+        document.getElementById("47").innerHTML, document.getElementById("48").innerHTML,
+        document.getElementById("49").innerHTML, document.getElementById("50").innerHTML,
+        document.getElementById("51").innerHTML, document.getElementById("52").innerHTML,
+        document.getElementById("53").innerHTML, document.getElementById("54").innerHTML,
+        document.getElementById("55").innerHTML, document.getElementById("56").innerHTML,
+        document.getElementById("57").innerHTML, document.getElementById("58").innerHTML,
+        document.getElementById("59").innerHTML, document.getElementById("60").innerHTML,
+        document.getElementById("61").innerHTML, document.getElementById("62").innerHTML,
+        document.getElementById("63").innerHTML, document.getElementById("64").innerHTML,
+        document.getElementById("65").innerHTML, document.getElementById("66").innerHTML,
+        document.getElementById("67").innerHTML, document.getElementById("68").innerHTML,
+        document.getElementById("69").innerHTML, document.getElementById("70").innerHTML,
+        document.getElementById("71").innerHTML, document.getElementById("72").innerHTML,
+        document.getElementById("73").innerHTML, document.getElementById("74").innerHTML,
+        document.getElementById("75").innerHTML, document.getElementById("76").innerHTML,
+        document.getElementById("77").innerHTML, document.getElementById("78").innerHTML,
+        document.getElementById("79").innerHTML, document.getElementById("80").innerHTML,
+        document.getElementById("81").innerHTML, document.getElementById("82").innerHTML,
+        document.getElementById("83").innerHTML, document.getElementById("84").innerHTML,
+        document.getElementById("85").innerHTML, document.getElementById("86").innerHTML,
+        document.getElementById("87").innerHTML, document.getElementById("88").innerHTML,
+        document.getElementById("89").innerHTML, document.getElementById("90").innerHTML,
+        document.getElementById("91").innerHTML, document.getElementById("92").innerHTML,
+        document.getElementById("93").innerHTML, document.getElementById("94").innerHTML,
+        document.getElementById("95").innerHTML, document.getElementById("96").innerHTML,
+        document.getElementById("97").innerHTML, document.getElementById("98").innerHTML,
+        document.getElementById("99").innerHTML, document.getElementById("100").innerHTML,
+
+    ]
+
+    check_red = document.querySelector("#myonoffswitch1FA");
+    check_orange = document.querySelector("#myonoffswitch1FB");
+    check_green = document.querySelector("#myonoffswitch1FC");
+    check_blue = document.querySelector("#myonoffswitch1FD");
+    check_color = `<i class="fa fa-meh-o fa-2x"></i> HAS PERDIDO!`;
+
+    redPoint = 0;
+    orangePoint = 0;
+    greenPoint = 0;
+    bluePoint = 0;
+
+    let randNum = () => {
+        batNum = Math.random()*100;
+        batNum = Math.floor(batNum + 1);
+        return batNum;
+    }
+    let randColor = () => {
+        numColor = Math.random()*100;
+        numColor = Math.floor(numColor + 1);
+        if (numColor <= 25 ){
+            redPoint++;
+            document.getElementById("rp").innerHTML = redPoint;
+            return `<div class="btn btn-danger">-</div>`;
+        }else if(numColor > 25 && numColor <= 50){
+            orangePoint++;
+            document.getElementById("op").innerHTML = orangePoint;
+            return `<div class="btn btn-warning">-</div>`;
+        }else if(numColor > 50 && numColor <= 75){
+            greenPoint++;
+            document.getElementById("gp").innerHTML = greenPoint;
+            return `<div class="btn btn-success">-</div>`;
+        }else if (numColor > 75 && numColor <= 100){
+            bluePoint++;
+            document.getElementById("bp").innerHTML = bluePoint;
+            return `<div class="btn btn-primary">-</div>`;
+        }else{
+            return `<div class="btn bg bg-gray">Error</div>`;
+        }
+    }
+
+    function refresh(){
+        if(redPoint == 100 || orangePoint == 100 || greenPoint == 100 || bluePoint == 100){
+            if(redPoint == 100){
+                if(check_red.checked == true){
+                    check_color = `<i class="fa fa-smile-o fa-2x"></i> EN HORABUENA, HAS GANADO!`;
+                }
+                document.getElementById("alertDomiColor").innerHTML = `
+                    <div class="alert alert-danger alert-raised alert-dismissible fade in text-center" role="alert">
+                        <strong>`+check_color+`</strong> EL COLOR ROJO ES EL GANADOR. 
+                    </div>
+                `;
+            }else if(orangePoint == 100){
+                if(check_orange.checked == true){
+                    check_color = `<i class="fa fa-smile-o fa-2x"></i> EN HORABUENA, HAS GANADO!`;
+                }
+                document.getElementById("alertDomiColor").innerHTML = `
+                    <div class="alert alert-warning alert-raised alert-dismissible fade in text-center" role="alert">
+                        <strong>`+check_color+`</strong> EL COLOR NARANJA ES EL GANADOR. 
+                    </div>
+                `;
+            }else if(greenPoint == 100){
+                if(check_green.checked == true){
+                    check_color = `<i class="fa fa-smile-o fa-2x"></i> EN HORABUENA, HAS GANADO!`;
+                }
+                document.getElementById("alertDomiColor").innerHTML = `
+                    <div class="alert alert-success alert-raised alert-dismissible fade in text-center" role="alert">
+                        <strong>`+check_color+`</strong> EL COLOR VERDE ES EL GANADOR. 
+                    </div>
+                `;
+            }else if(bluePoint == 100){
+                if(check_blue.checked == true){
+                    check_color = `<i class="fa fa-smile-o fa-2x"></i> EN HORABUENA, HAS GANADO!`;
+                }
+                document.getElementById("alertDomiColor").innerHTML = `
+                    <div class="alert alert-primary alert-raised alert-dismissible fade in text-center" role="alert">
+                        <strong>`+check_color+`</strong> EL COLOR AZÚL ES EL GANADOR. 
+                    </div>
+                `;
+            }
+        }else{
+            batNum = randNum();
+            batColor = randColor();
+            for(let num of arrayBatNum){
+                if(parseInt(num) == batNum){
+                    document.getElementById(num).innerHTML = batColor;
+                }
+            }
+        }
+    }
+    if(stoplay == true){
+        setInterval(refresh, 100);
+    }
+}
+
+//END: EXPERIMENT ONE
+
+
+//EXPERIMENT TWO
+
+    const powerMod = document.querySelector(".powerMod");
+    const powerLed = document.querySelector(".powerLed");
+    const doorWather = document.querySelector(".doorWather");
+    const tempeSen = document.querySelector(".tempeSen");
+
+    const barWather = document.querySelector("#barWather");
+
+    var compUse = false;
+    var comp_doorWather = false;
+    var comp_tempSen = false;
+
+    function powerPlant(){
+        if (powerMod.checked == true){
+            compUse = true;
+            powerLed.style.backgroundColor = "yellow";
+            powerLed.classList.add("animated");
+            powerLed.classList.add("pulse");
+            powerLed.classList.add("infinite");
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-success alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>ENCENDIDO</strong> Control de temperatura activado. <i> Procure verificar regularmente la temperatura. </i>
+            </div>
+            `;
+            temperatureSensor();
+        }else{
+            compUse = false;
+            powerLed.style.backgroundColor = "";
+            powerLed.classList.remove("animated");
+            powerLed.classList.remove("pulse");
+            powerLed.classList.remove("infinite");
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-default alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>¡APAGADO!</strong> Control de temperatura desactivado. <i> Esto no es recomendable. </i>
+            </div>
+            `;
+            temperatureSensor();
+        }
+    }
+
+    function doorW(){
+        if(doorWather.checked == true && compUse == true){
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-info alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>H<sub>2</sub>O</strong> | El agua está disponible.
+            </div>
+            `;
+            comp_doorWather = true;
+        }else{
+            doorWather.checked == false;
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-default alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>H<sub>2</sub>O</strong> | No disponible.
+            </div>
+            `;
+            comp_doorWather = false;
+        }
+    }
+
+    function tempS(){
+        if(tempeSen.checked == true && compUse == true){
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-primary alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>SENSOR DE TEMPERATURA</strong> | Activado.
+            </div>
+            `;
+            comp_tempSen = true;
+            temperatureSensor();
+        }else{
+            tempeSen.checked == false;
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-default alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>SENSOR DE TEMPERATURA</strong> | No disponible.
+            </div>
+            `;
+            comp_tempSen = false;
+            temperatureSensor();
+        }
+    }
+
+    var percW = 100; 
+    let addWP = percW + "%"
+    barWather.style.width = addWP;
+    function addWather(){
+        if(compUse == true && comp_doorWather ==false){
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-default alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>Compuertas H<sub>2</sub>O bloqueadas</strong> | Intente abrir de nuevo.
+            </div>
+            `;
+        }
+        if(compUse == true && comp_doorWather == true){
+            if(percW != 100){
+                percW++;
+            }
+            let addWP = percW + "%"
+            barWather.style.width = addWP;
+            document.getElementById("sumW").innerHTML = addWP;
+            document.getElementById("alertNuclearE").innerHTML = `
+            <div class="alert alert-info alert-raised alert-dismissible fade in text-center" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <strong>Compuertas H<sub>2</sub>O Desbloqueadas</strong> | Usted puede cargar.
+            </div>
+            `;
+        }
+    }
+
+var probTemp = 0;
+var promTemp = 790;
+
+var l1 = false;
+var l2 = false;
+var l3 = false;
+
+function tempControllevel1(){
+    if(compUse == true){
+        const tempControl_1 = document.querySelector(".level1");
+        if(tempControl_1.checked == true){
+           l1 = true;
+           l2 = false;
+           l3 = false;
+        }else{
+            l1 = false;
+        }
+    }
+}
+function tempControllevel2(){
+    if(compUse == true){
+        const tempControl_2 = document.querySelector(".level2");
+        if(tempControl_2.checked == true){
+           l2 = true;
+           l1 = false;
+           l3 = false;
+        }else{
+           l2 = false;
+        }
+    }
+}
+function tempControllevel3(){
+    if(compUse == true){
+        const tempControl_3 = document.querySelector(".level3");
+        if(tempControl_3.checked == true){
+            l3 = true;
+            l1 =false;
+            l2 = false;
+        }else{
+            l3 = false;
+        }
+    }
+}
+function tempControllevelOff(){
+    l1 = false;
+    l2 = false;
+    l3 = false;
+}
+
+function chartMorris(temp){
+    let temperature = temp + "°C";
+    if(comp_tempSen == true){
+        document.getElementById("line-chart").innerHTML = temperature;
+    }else{
+        document.getElementById("line-chart").innerHTML = "";
+    }
+}
+
+function vartemp (){
+    wather_ = percW;
+    l1_ = l1;
+    l2_ = l2;
+    l3_ = l3;
+    if(compUse == true){
+
+        if(l1_ == true && wather_ > 0){
+            promTemp--;
+            percW -=0.1;
+            let addWP = Math.floor(percW) + "%";
+            barWather.style.width = addWP;
+            document.getElementById("sumW").innerHTML = addWP;
+        }else if(l2_ == true && wather_ > 0){
+            promTemp -=2;
+            percW -=0.2;
+            let addWP = Math.floor(percW) + "%";
+            barWather.style.width = addWP;
+            document.getElementById("sumW").innerHTML = addWP;
+        }else if(l3_ == true && wather_ > 0){
+            promTemp -=5;
+            percW -=0.5;
+            let addWP = Math.floor(percW) + "%";
+            barWather.style.width = addWP;
+            document.getElementById("sumW").innerHTML = addWP;
+        }else{
+            if(wather_ <= 0){
+                document.getElementById("alertNuclearE").innerHTML = `
+                <div class="alert alert-danger alert-raised alert-dismissible fade in text-center" role="alert">
+                   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   <strong>SIN AGUA</strong> | <small>¡Cargue pronto!</small>.
+                </div>
+            `;
+            }
+        }
+
+        probTemp = Math.random()*100;
+        probTemp = Math.floor(probTemp + 1);
+        if(probTemp <= 30){
+            temp = promTemp +=4;
+            chartMorris(temp);
+        }else if(probTemp > 30 && probTemp <= 93){
+            temp = promTemp;
+            chartMorris(temp);
+        }else if(probTemp > 93 && probTemp <= 100){
+            temp = promTemp--;
+            chartMorris(temp);
+        }
+
+        if(promTemp > 890 && promTemp <= 1000){
+            document.getElementById("sRalert").innerHTML =`
+              <h4 style="color: yellow">Riesgo</h4>
+            `;
+        }else if(promTemp > 1000 && promTemp <= 1500){
+            document.getElementById("sRalert").innerHTML =`
+              <h4 style="color: red">Peligro inminente</h4>
+            `;
+        }else if(promTemp > 1500){
+            document.getElementById("sRalert").innerHTML =`
+              <h4 style="color: red"><b>REACTOR DAÑADO.</b></h4>
+            `;
+            document.getElementById("alertNuclearE").innerHTML = `
+                <div class="alert alert-danger alert-raised alert-dismissible fade in text-center" role="alert">
+                   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                   <strong>¡EL REACTOR A DETONADO!</strong>
+                </div>
+            `;
+        }else{
+            document.getElementById("sRalert").innerHTML =`
+              <h4 style="color: blue">Normal</h4>
+            `;
+        }
+    }
+}
+
+function temperatureSensor(){
+    if(comp_tempSen == true && compUse == true){
+        setInterval(vartemp, 200);
+        document.getElementById("footline-chart").innerHTML = ``;
+    }else{
+        document.getElementById("line-chart").innerHTML = ``;
+        document.getElementById("footline-chart").innerHTML = `<div class="text-center"><i class="btn alert-danger"><i class="fa fa-warning"></i> El sensor de temperatura está desactivado.</i></div>`;
+    }
+}
+
+
+
+
+//END: EXPERIMENT TWO
+
+//EXPERIMENT THREE
+
+function reset(){
+    document.getElementById("ffP").innerHTML = `
+    <div class="text-center">
+        <h3><b>¿Qué deseas calcular?</b></h3><br>
+        <button onclick="calculH()" class="btn btn-ripple btn-3d btn-default form-control"><i class="icons icon-layers"></i> ALTURA</button><br><br>
+        <button onclick="calculT()" class="btn btn-ripple btn-3d btn-default form-control"><i class="icons icon-hourglass"></i> TIEMPO</button><br><br>
+        <button onclick="calculV()" class="btn btn-ripple btn-3d btn-default form-control"><i class="icons icon-speedometer"></i> VELOCIDAD</button>
+    </div>
+    `;
+    document.getElementById("alertffP").innerHTML = ``;
+}
+
+function calH(){
+    let dtime = document.getElementById("timeff").value;
+    let dvelo = document.getElementById("veloff").value;
+    let time_ = dtime.trim();
+    let velo = dvelo.trim();
+
+    if(time_ != ""  && velo == ""){
+        let resul1 = 9.8 * (time_*time_);
+        let result_ = Math.fround(resul1) / 2;
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA:</b>
+    <div class="text-center">
+        <h3><b>d = a.t<sup>2</sup> / 2</b></h3>
+    </div>
+    <div class="panel">
+            #1) d = 9.8 m/seg<sup>2</sup> x (${time_} seg)<sup>2</sup> / 2 <br>
+            #2) d = (9.8 m/seg<sup>2</sup> x ${time_*time_} seg<sup>2</sup>) / 2 <br>
+            #3) d = (${resul1} m.seg<sup>2</sup>/seg<sup>2</sup>) / 2 <br>
+            #4) d = (${resul1} m) / 2 <br>
+            #5) d = ${result_} m <br>
+            Conclusión: La altura desde donde descendió el objeto a los ${time_} seg, fué de ${Math.round(result_)} m. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+    }else if(time_ == ""  && velo != ""){
+        let result_2 = (velo * velo) / (2 * 9.8);
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA:</b>
+    <div class="text-center">
+        <h3><b>v<sup>2</sup> = 2.d.a</h3> Despeje:
+        <h3><b>d = v<sup>2</sup> / 2.a</b></h3>
+    </div>
+    <div class="panel">
+            #1) d = (${velo} m/seg)<sup>2</sup> / (2 x 9.8 m/seg<sup>2</sup>) <br>
+            #2) d = (${velo * velo} m<sup>2</sup>/seg<sup>2</sup>) / (${2 * 9.8} m/seg<sup>2</sup>) <br>
+            #3) d = ${result_2} m <br>
+            Conclusión: La altura desde donde descendió el objeto a la velocidad de ${velo} m/seg, fué de ${Math.round(result_2)} m. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+    }else if(time_ != ""  && velo != ""){
+        let resul1 = 9.8 * (time_*time_);
+        let result_ = Math.fround(resul1) / 2;
+        let result_2 = (velo * velo) / (2 * 9.8);
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA (en función de tiempo):</b>
+    <div class="text-center">
+        <h5><b>d = a.t<sup>2</sup> / 2</b></h5>
+    </div>
+    <div class="panel">
+            #1) d = 9.8 m/seg<sup>2</sup> x (${time_} seg)<sup>2</sup> / 2 <br>
+            #2) d = (9.8 m/seg<sup>2</sup> x ${time_*time_} seg<sup>2</sup>) / 2 <br>
+            #3) d = (${resul1} m.seg<sup>2</sup>/seg<sup>2</sup>) / 2 <br>
+            #4) d = (${resul1} m) / 2 <br>
+            #5) d = ${result_} m <br>
+            Conclusión: La altura desde donde descendió el objeto a los ${time_} seg, fué de ${Math.round(result_)} m. <br>
+    </div>
+    <br>
+    <br>
+    <b>FORMULA UTILIZADA (en función de la velocidad):</b>
+    <div class="text-center">
+        <h5><b>d = v<sup>2</sup> / 2.a</b></h5>
+    </div>
+    <div class="panel">
+            #1) d = (${velo} m/seg)<sup>2</sup> / (2 x 9.8 m/seg<sup>2</sup>) <br>
+            #2) d = (${velo * velo} m<sup>2</sup>/seg<sup>2</sup>) / (${2 * 9.8} m/seg<sup>2</sup>) <br>
+            #3) d = ${result_2} m <br>
+            Conclusión: La altura desde donde descendió el objeto a la velocidad de ${velo} m/seg, fué de ${Math.round(result_2)} m. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+
+    }else{
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-danger">Campos vacios.</div>`;
+    }
+}
+
+function calT(){
+    let dheight = document.getElementById("heightff").value;
+    let dvelo = document.getElementById("veloff").value;
+    let height_ = dheight.trim();
+    let velo = dvelo.trim();
+
+    if(height_ != ""  && velo == ""){
+        let resul1 = 2 * height_;
+        let resul2 = resul1 / 9.8;
+        let result_ = Math.sqrt(resul2);
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA:</b>
+    <div class="text-center">
+        <h4><b> d = (a.t<sup>2</sup>) / 2 </b></h4> Despeje:
+        <h4><b> t = rc(2.d / a) </b></h4>  <small>rc: raíz cuadrada</small>
+
+    </div>
+    <div class="panel">
+            #1) t =  rc[ (2 x ${height_} m) / (9.8 m/seg<sup>2</sup>) ] <br>
+            #2) t = rc[ (${resul1} m) / (9.8 m/seg<sup>2</sup>) ] <br>
+            #3) t = rc(${resul2} seg<sup>2</sup>) <br>
+            #4) t = ${result_} seg <br>
+            Conclusión: El tiempo que tardó el objeto, desde la altura de ${height_} m, fué de ${Math.round(result_)} seg. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+    }else if(height_ == ""  && velo != ""){
+        let result_ = velo / 9.8;
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA:</b>
+    <div class="text-center">
+        <h4><b> v = a.t </h4> Despeje:
+        <h4><b> t = v / a </b></h4>
+    </div>
+    <div class="panel">
+            #1) t = (${velo} m/seg) / (9.8 m/seg<sup>2</sup>) <br>
+            #2) t = ${result_} seg <br>
+            Conclusión: El tiempo que tardó el objeto, a la velocidad de ${velo} m/seg, fué de ${Math.round(result_)} seg. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+    }else if(height_ != ""  && velo != ""){
+        let resul1 = 2 * height_;
+        let resul2 = resul1 / 9.8;
+        let result_ = Math.sqrt(resul2);
+        let result_2 = velo / 9.8;
+
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA (en función de la altura):</b>
+    <div class="text-center">
+        <h5><b> d = (a.t<sup>2</sup>) / 2 </b></h5> Despeje:
+        <h5><b> t = rc(2.d / a) </b></h5>  <small>rc: raíz cuadrada</small>
+
+    </div>
+    <div class="panel">
+            #1) t =  rc[ (2 x ${height_} m) / (9.8 m/seg<sup>2</sup>) ] <br>
+            #2) t = rc[ (${resul1} m) / (9.8 m/seg<sup>2</sup>) ] <br>
+            #3) t = rc(${resul2} seg<sup>2</sup>) <br>
+            #4) t = ${result_} seg <br>
+            Conclusión: El tiempo que tardó el objeto, desde la altura de ${height_} m, fué de ${Math.round(result_)} seg. <br>
+    </div>
+    <br>
+    <b>FORMULA UTILIZADA (en función de la velocidad):</b>
+    <div class="text-center">
+        <h5><b> v = a.t </h5> Despeje:
+        <h5><b> t = v / a </b></h5>
+    </div>
+    <div class="panel">
+            #1) t = (${velo} m/seg) / (9.8 m/seg<sup>2</sup>) <br>
+            #2) t = ${result_2} seg <br>
+            Conclusión: El tiempo que tardó el objeto, a la velocidad de ${velo} m/seg, fué de ${Math.round(result_2)} seg. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+
+    }else{
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-danger">Campos vacios.</div>`;
+    }
+}
+
+function calV(){
+    let dheight = document.getElementById("heightff").value;
+    let dtime = document.getElementById("timeff").value;
+    let height_ = dheight.trim();
+    let time_ = dtime.trim();
+
+    if(height_ != ""  && time_ == ""){
+        let resul1 = 2 * height_ * 9.8;
+        let result_ = Math.sqrt(resul1);
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA:</b>
+    <div class="text-center">
+        <h4><b> v<sup>2</sup> = 2.d.a </b></h4> simplificación:
+        <h4><b> v = rc(2.d.a) </b></h4>
+        <small>rc: raíz cuadrada</small>
+    </div>
+    <div class="panel">
+            #1) v =  rc[ (2 x ${height_} m x 9.8 m/seg<sup>2</sup>) ] <br>
+            #2) v = rc(${resul1} m<sup>2</sup>/seg<sup>2</sup>) <br>
+            #3) v = ${result_} m/seg <br>
+            Conclusión: La velocidad del objeto en caida libre, desde la altura de ${height_} m, fué de ${Math.round(result_)} m/seg. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+    }else if(height_ == ""  && time_ != ""){
+        let result_ =  9.8 * time_;
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA:</b>
+    <div class="text-center">
+        <h3><b> v = a.t </h3>
+    </div>
+    <div class="panel">
+            #1) v = (9.8 m/seg<sup>2</sup>) x (${time_} seg)  <br>
+            #2) v = ${result_} m/seg <br>
+            Conclusión: La velocidad del objeto en caida libre, al cabo de ${time_} seg, fué de ${Math.round(result_)} m/seg. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+    }else if(height_ != ""  && time_ != ""){
+        let resul1 = 2 * height_ * 9.8;
+        let result_ = Math.sqrt(resul1);
+        let result_2 =  9.8 * time_;
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span><br><br>
+    <b>FORMULA UTILIZADA (en función de la altura):</b>
+    <div class="text-center">
+        <h5><b> v<sup>2</sup> = 2.d.a </b></h5> simplificación:
+        <h5><b> v = rc(2.d.a) </b></h5>
+        <small>rc: raíz cuadrada</small>
+    </div>
+    <div class="panel">
+            #1) v =  rc[ (2 x ${height_} m x 9.8 m/seg<sup>2</sup>) ] <br>
+            #2) v = rc(${resul1} m<sup>2</sup>/seg<sup>2</sup>) <br>
+            #3) v = ${result_} m/seg <br>
+            Conclusión: La velocidad del objeto en caida libre, desde la altura de ${height_} m, fué de ${Math.round(result_)} m/seg. <br>
+    </div>
+    <br>
+
+    <b>FORMULA UTILIZADA (en función del tiempo):</b>
+    <div class="text-center">
+        <h5><b> v = a.t </h5>
+    </div>
+    <div class="panel">
+            #1) v = (9.8 m/seg<sup>2</sup>) x (${time_} seg)  <br>
+            #2) v = ${result_} m/seg <br>
+            Conclusión: La velocidad del objeto en caida libre, al cabo de ${time_} seg, fué de ${Math.round(result_)} m/seg. <br>
+    </div>
+    <br>
+    `;
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-success">RESULTADO:</div>`;
+
+    }else{
+        document.getElementById("alertffP").innerHTML = `<div class="btn btn-danger">Campos vacios.</div>`;
+    }
+}
+
+
+
+
+
+function calculH(){
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span>
+    <div class="text-center">
+        <h3><b>¿Qué Dato tienes?</b></h3>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <b>Tiempo (seg):</b><br>
+            <input type="number" id="timeff" class="form-control" placeholder="?"><br>
+            <b>Velocidad (m/seg): </b>
+            <input type="number" id="veloff" class="form-control" placeholder="?">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+        </div>
+    </div>
+    <br>
+    <small><i>Puedes llenar un solo campo, sea tiempo o velocidad (de acuerdo al dato que tengas).</i></small>
+    <br>
+    <div class="text-center"><button onclick="calH()" class="btn btn-success btn-round">CALCULAR ALTURA</button></div>
+    `;
+}
+
+function calculT(){
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span>
+    <div class="text-center">
+        <h3><b>¿Qué Dato tienes?</b></h3>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <b>Altura (m):</b><br>
+            <input type="number" id="heightff" class="form-control" placeholder="?"><br>
+            <b>Velocidad (m/seg): </b>
+            <input type="number" id="veloff" class="form-control" placeholder="?">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+        </div>
+    </div>
+    <br>
+    <small><i>Puedes llenar un solo campo, sea altura o velocidad (de acuerdo al dato que tengas).</i></small>
+    <br>
+    <div class="text-center"><button onclick="calT()" class="btn btn-success btn-round">CALCULAR TIEMPO</button></div>
+    `;
+}
+function calculV(){
+    document.getElementById("ffP").innerHTML = `
+    <span class="btn fa fa-refresh" onclick="reset()"></span>
+    <div class="text-center">
+        <h3><b>¿Qué Dato tienes?</b></h3>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <b>Altura (m):</b><br>
+            <input type="number" id="heightff" class="form-control" placeholder="?"><br>
+            <b>Tiempo (seg): </b>
+            <input type="number" id="timeff" class="form-control" placeholder="?">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+        </div>
+    </div>
+    <br>
+    <small><i>Puedes llenar un solo campo, sea altura o tiempo (de acuerdo al dato que tengas).</i></small>
+    <br>
+    <div class="text-center"><button onclick="calV()" class="btn btn-success btn-round">CALCULAR VELOCIDAD</button></div>
+    `;
+}
+
+
+//END: EXPERIMENT THREE
+
+//EXPERIMENT FOUR
+var arraynotesx = [];
+
+function addOtherNote(){
+   let noteX = [];
+
+   let dat = new Date(); 
+   let date_ = dat.getDate()+"/"+(dat.getMonth()+1)+"/"+dat.getFullYear();
+   let note_ = document.getElementById("noteX").value;
+
+   noteX[0] = date_;
+   noteX[1] = note_.trim();
+
+   if(noteX[1] != ""){
+    arraynotesx.unshift(noteX);
+    document.getElementById("alertNoteX").innerHTML = `
+        <div class="alert alert-default alert-raised alert-dismissible fade in text-center" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <strong>Nueva nota guardada.</strong>
+        </div>
+    `;
+   }
+
+   document.getElementById("noteX").value = "";
+}
+
+function listnotesx(){
+
+    document.getElementById("alertNoteX").innerHTML = "";
+    document.getElementById("listnotesx").innerHTML = ``;
+    let listNotes = arraynotesx;
+
+    for(i in listNotes){
+        let desc = listNotes[i][1];
+        let description = desc.substring(0,7);
+        document.getElementById("listnotesx").innerHTML += `
+        <div class="alert alert-outline alert-default">
+            <i class="fa fa-sticky-note"></i> ${listNotes[i][0]} | ${description}
+            | <i onclick="viewNote(${i})" class="btn fa fa-eye"></i> 
+            | <i onclick="delNote(${i})" class="btn fa fa-trash"></i> <br>
+            <div id="note-${i}"></div>
+        </div>
+        `;
+    }
+
+}
+
+function viewNote(i){
+    let date_ = arraynotesx[i][0];
+    let desc = arraynotesx[i][1];
+
+    document.getElementById("note-"+i).innerHTML=`
+    <div class="img-responsive">
+        <hr>
+        <div class="text-right">NOTA: ${date_}  <i class="btn" onclick="closeN(${i})">X</i></div><br>
+        <p>${desc}</p>
+    </div>
+    `;
+}
+function closeN(i){
+    document.getElementById("note-"+i).innerHTML=``;
+}
+
+function delNote(i){
+    arraynotesx.splice(i,1);
+    listnotesx();
+}
+
+//END: EXPERIMENT FOUR
+
+//EXPERIMENT FIVE
+
+var memory_1 = [];
+var memory_2 = [
+    ["hola","hey hola!"],
+    ["cuál es tu nombre?","mi nombre es Lorobot"],
+    ["gusto en conocerte","el gusto mio, gracias."],
+    ["a donde vives?","en un sitio web llamado testsJs"],
+    ["quién eres?","un bot llamado Lorobot"],
+    ["cómo te llamas?","Lorobot"],
+    ["quién te creó?","Alfredo"],
+    ["quién es tu creador?","Alfredo Flores"],
+    ["quién es tu dueño?","un programador Junior llamado Alfredo Flores"],
+    ["qué edad tienes?","no sé mi edad"],
+    ["cuál es tu edad?","no conozco mi edad"],
+    ["eres Lorobot","si"],
+];
+
+class Lorobot{
+    constructor(name, owner, house, age){
+        this.name = name;
+        this.owner = owner;
+        this.house = house,
+        this.age = age;
+    }
+    
+    learn(learning){
+        let inMemory1 = false;
+        let inMemory2 = false;
+
+        for(let i in memory_1){
+            if(learning[0] == memory_1[i][0] && learning[1] == memory_1[i][1]){
+                inMemory1 = true;
+            }
+        }
+
+        for(let i in memory_2){
+            if(learning[0] == memory_2[i][0] && learning[1] == memory_2[i][1]){
+                inMemory1 = true;
+            }
+        }
+        
+        if(inMemory1==false && inMemory2==false){
+            memory_1.push(learning);
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    prattle(textP){
+        let answer = "";
+        let inMemory1 = false;
+        let inMemory2 = false;
+
+        for(let i in memory_1){
+            let emitting = memory_1[i][0];
+            let receiver = memory_1[i][1];
+            if(textP == emitting){
+                answer = receiver;
+                inMemory1 = true;
+            }else if(textP == receiver){
+                let asw = emitting + "¿Eso te lo preguntas?";
+                answer = asw;
+                inMemory1 = true;
+            }
+        }
+        if(inMemory1 == false){
+            for(let i in memory_2){
+                let emitting = memory_2[i][0];
+                let receiver = memory_2[i][1];
+                if(textP == emitting){
+                    answer = receiver;
+                    inMemory2 = true;
+                }else if(textP == receiver){
+                    let asw = emitting + "¿Eso te lo preguntas?";
+                    answer = asw;
+                    inMemory2 = true;
+                }
+            }
+        }
+        if(inMemory1 == false && inMemory2 == false){
+            answer = "No te entiendo, ¿puedes enseñarme a responderte eso?";
+        }
+        return answer;
+    }
+
+}
+lorobot = new Lorobot("Lorobot","Alfredo Flores","testsJS","1 mes");
+
+function learning(){
+    let learning = [];
+    learning_E = document.getElementById("emitting").value;
+    learning_R = document.getElementById("receiver").value;
+    if(learning_E.trim()!="" && learning_R.trim()!=""){
+        learning[0] = learning_E.toLowerCase();
+        learning[1] = learning_R.toLowerCase();
+        let anw = lorobot.learn(learning);
+        if(anw){
+            document.getElementById("alertLL").innerHTML = `
+            <div class="btn btn-primary animated pulse"> Lo memorizé </div>
+            `;
+            document.getElementById("emitting").value = ``;
+            document.getElementById("receiver").value = ``;
+        }else{
+            document.getElementById("alertLL").innerHTML = `
+            <div class="btn btn-primary animated pulse"> Lo tengo memorizado </div>
+            `;
+            document.getElementById("emitting").value = ``;
+            document.getElementById("receiver").value = ``;
+        }
+    }else{
+        document.getElementById("alertLL").innerHTML = `
+        <div class="btn btn-primary animated pulse"> No me has enseñado nada...</div>
+        `;
+    }
+}
+
+function talk(){
+    let textEmitting = document.getElementById("textP").value;
+    let textP_ = textEmitting.trim();
+    let textP = textP_.toLowerCase();
+    if(textP != ""){
+        let answer = lorobot.prattle(textP);
+        document.getElementById("prattle").innerHTML = answer;
+    }
+    document.getElementById("textP").value ="";
+}
+
+//END: EXPERIMENT FIVE
+
+</script>
+<!--END: SOURCE-->
+
+</body>
+</html>
